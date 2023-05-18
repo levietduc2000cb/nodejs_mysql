@@ -12,7 +12,7 @@ module.exports = {
       name: {
         type: Sequelize.STRING,
       },
-      passwrod: {
+      password: {
         type: Sequelize.STRING,
       },
       email: {
@@ -23,9 +23,7 @@ module.exports = {
       },
       role_code: {
         type: Sequelize.STRING,
-      },
-      content: {
-        type: Sequelize.STRING,
+        defaultValue: "R3",
       },
       createdAt: {
         allowNull: false,
